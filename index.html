@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<script src="script.js" defer></script>
+<body>
+    <header>
+        <main class = "apresentacao">
+            <section class = "apresentacao_tradutor">
+                <input class = "texto_traduzir" type = "text" placeholder="Digite seu texto" id = "texto_para_traduzir">
+                <p class = "apresentacao_aviso">Apenas letras minúsculas e sem acento.</p>
+                <button class = "botao_azul" onclick = "criptografar()">Criptografar</button>
+                <button class = "botao_branco" onclick = "descriptografar()">Descriptografar</button>
+            </section>
+            <div class = "apresentacao_traduzido">
+                <div>
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <button class = "botao_azul">Copiar</button>
+            </div>
+        </main>
+    </header>
+</body>
+</html>
